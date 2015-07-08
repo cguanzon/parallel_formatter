@@ -1,7 +1,7 @@
 require "parallel_formatter/version"
 require 'rspec/core/formatters/base_text_formatter'
 
-module ParallelFormatter
+module RSpec
   class ParallelFormatter < RSpec::Core::Formatters::BaseTextFormatter
     RSpec::Core::Formatters.register self, :example_group_started, :example_started,
                                      :example_passed, :example_pending,

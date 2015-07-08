@@ -44,7 +44,7 @@ Or install it yourself as:
 add to your `.rspec` file
 
     --require parallel_formatter
-    --format ParallelFormatter::ParallelFormatter
+    --format RSpec::ParallelFormatter
 
 ## Contributing
 
